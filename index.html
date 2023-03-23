@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenCV.js Practice</title>
+    <script async src="lib/dist/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
+    <script src="lib/dist/utils.js"></script>
+  </head>
+  <body>
+    <h2>Hello OpenCV.js</h2>
+    <p id="status">OpenCV.js is loading...</p>
+
+    <div>
+      <div class="inputoutput">
+        <div class="camera">
+
+          <!-- image -->
+          
+          <img id="imageSrc" width="320" height="240">
+          <canvas id="canvasOutput" width="320" height="240"></canvas>
+          <div class="caption">Image Source <input type="file" id="fileInput" name="file" />
+
+          <!-- video -->
+          <!-- <div class="control"><button id="start">Start</button></div>
+          <video id="videoInput" width="320" height="240"></video>  
+          <canvas id="canvasOutput" width="320" height="240"></canvas> -->
+          
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="3_face.js" type="text/javascript"></script>
+       
+  </body>
+</html>
